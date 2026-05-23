@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm uninstall *)",
+      "Bash(mkdir -p /Users/emilioguzman/Documents/dulce-tentacion/backend/config /Users/emilioguzman/Documents/dulce-tentacion/backend/middleware /Users/emilioguzman/Documents/dulce-tentacion/backend/routes /Users/emilioguzman/Documents/dulce-tentacion/backend/uploads)",
+      "Bash(mkdir -p /Users/emilioguzman/Documents/dulce-tentacion/frontend/src/components /Users/emilioguzman/Documents/dulce-tentacion/frontend/src/pages/admin /Users/emilioguzman/Documents/dulce-tentacion/frontend/src/context /Users/emilioguzman/Documents/dulce-tentacion/frontend/src/services)",
+      "Bash(node --check index.js)",
+      "Bash(node --check config/db.js)",
+      "Bash(node --check middleware/auth.js)",
+      "Bash(node --check routes/auth.js)",
+      "Bash(node --check routes/products.js)",
+      "Bash(npx vite *)",
+      "Bash(node -e \"require\\('dotenv'\\)\")",
+      "Bash(node *)",
+      "Bash(mysql *)",
+      "Bash(curl -s -X POST http://localhost:3001/api/auth/login -H 'Content-Type: application/json' -d '{\"email\":\"admin@dulcetentacion.com\",\"password\":\"admin123\"}')",
+      "Bash(python3 -m json.tool)",
+      "Bash(kill %1)"
+    ]
+  }
+}
